@@ -50,6 +50,19 @@ The Central Monitoring Service receives sensor data from Kafka and monitors envi
 
    Check the application logs to verify that sensor data is being received and processed correctly. You should see log entries for alarms triggered by exceeding thresholds.
 
+## Test Coverage
+
+To generate the test coverage report, run the following command:
+
+```bash
+mvn clean test
+```
+
+After running the tests, you can view the JaCoCo report by opening the following file in your browser:
+
+- **Maven:** `target/site/jacoco/index.html`
+
+
 ## Common Issues
 
 - **Kafka Connection Issues**: Ensure Kafka is running and configured correctly. Check the logs for any errors related to Kafka connectivity.
