@@ -28,7 +28,7 @@ The Central Monitoring Service receives sensor data from Kafka and monitors envi
    For Maven:
 
     ```sh
-    mvn install
+    mvn clean install
     ```
 
 
